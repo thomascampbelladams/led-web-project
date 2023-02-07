@@ -6,4 +6,10 @@ This project utilizes the [rpi-led-matrix](https://www.npmjs.com/package/rpi-led
 
 From the root of this directory, run tsc Screen.ts.
 
-NOTE: Due to the requirements of the rpi-led-matrix, this compile will need
+NOTE: Due to the requirements of the rpi-led-matrix, this compile will need to happen on the Raspberry Pi due to the binary requirements for rpi-led-matrix.
+
+# HOW TO RUN
+
+Run with the following command:
+
+node Screen.js
