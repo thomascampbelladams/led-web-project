@@ -1,0 +1,116 @@
+           RRRR
+          RRRRRR
+ 000     RRRRR0RR
+0WWW0    W0O0W0RR
+  WW     WWWWW  O
+   WWWWWW00W00WWWW
+   0WWWWGGGGGGGWWWW
+        GRRYYRRG 0WW0
+         GGGGG    0W0
+         RR RR
+        RR   RR
+        RR    RR
+        0RR    RR00
+       OOOOO    OOOO
+[
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, /* end hat */ 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red,/* end hat */ 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, 0, colorsToCode.green, colorsToCode.green,/* end hat */0, 0, 0, 0],
+    [0, /*begin hand*/colorsToCode.white, colorsToCode.white, colorsToCode.white,/*end hand*/ 0, 0, 0, 0, 0, /* begin head*/colorsToCode.white, 0, colorsToCode.orange, 0, colorsToCode.white, 0, colorsToCode.green, colorsToCode.green,/* end head*/0, 0, 0, 0],
+    [0, 0, /*begin hand*/colorsToCode.white, colorsToCode.white,/*end hand*/ 0, 0, 0, 0, 0, /* begin head*/colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, 0, colorsToCode.green,/* end head*/0, 0, 0, 0, 0, 0],
+    [0, 0, 0,/*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/*end arm*/ 0, 0, /* begin neck*/colorsToCode.white,/* end neck*/ 0, 0, /*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/* end arm*/ 0, 0],
+    [0, 0, 0, 0,/*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.green,/*end arm begin body*/ colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green,/*begin arm end body*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/* end arm*/ 0],
+    [0, 0, 0, 0, 0, 0, 0, colorsToCode.green, colorsToCode.red, colorsToCode.red, colorsToCode.yellow, colorsToCode.yellow, colorsToCode.red, colorsToCode.red, colorsToCode.green, 0, 0, colorsToCode.white, colorsToCode.white, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, 0, 0, 0, 0, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange]
+],
+[
+    [0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.white", 0, "colorsToCode.orange", 0, "colorsToCode.white", 0, 0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0],
+    [0, 0, 0, 0, 0, 0, "colorsToCode.green", 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", 0, 0],
+    [0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, "colorsToCode.white", 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0],
+    [0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0],
+    [0, 0, 0, 0, 0, 0, 0, "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ["colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", 0, 0, 0, 0, "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", 0, 0, 0, 0, 0, 0, 0, 0]
+],
+[
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, /* end hat */ 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red,/* end hat */ 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, 0, colorsToCode.red, colorsToCode.red,/* end hat */0, 0, 0, 0],
+    [0, /*begin hand*/colorsToCode.white, colorsToCode.white, colorsToCode.white,/*end hand*/ 0, 0, 0, 0, 0, /* begin head*/colorsToCode.white, 0, colorsToCode.orange, 0, colorsToCode.white, 0, colorsToCode.red, colorsToCode.red,/* end head*/0, 0, 0, 0],
+    [0, 0, /*begin hand*/colorsToCode.white, colorsToCode.white,/*end hand*/ 0, 0, 0, 0, 0, /* begin head*/colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, 0, colorsToCode.green,/* end head*/0, 0, 0, 0, 0, 0],
+    [0, 0, 0,/*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/*end arm*/ 0, 0, /* begin neck*/colorsToCode.white,/* end neck*/ 0, 0, /*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/* end arm*/ 0, 0],
+    [0, 0, 0, 0,/*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.green,/*end arm begin body*/ colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green,/*begin arm end body*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/* end arm*/ 0],
+    [0, 0, 0, 0, 0, 0, 0, colorsToCode.green, colorsToCode.red, colorsToCode.red, colorsToCode.yellow, colorsToCode.yellow, colorsToCode.red, colorsToCode.red, colorsToCode.green, 0, 0, colorsToCode.white, colorsToCode.white, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, 0, 0, 0, 0, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange]
+],
+[
+    [0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.white", 0, "colorsToCode.orange", 0, "colorsToCode.white", 0, 0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0],
+    [0, 0, 0, 0, 0, 0, "colorsToCode.green", 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", 0, 0],
+    [0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, "colorsToCode.white", 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0],
+    [0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0],
+    [0, 0, 0, 0, 0, 0, 0, "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ["colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", 0, 0, 0, 0, "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", 0, 0, 0, 0, 0, 0, 0, 0]
+],
+[
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, /* end hat */ 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red,/* end hat */ 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, /* begin hat*/colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, colorsToCode.red, 0, colorsToCode.red, colorsToCode.red,/* end hat */0, 0, 0, 0],
+    [0, /*begin hand*/colorsToCode.white, colorsToCode.white, colorsToCode.white,/*end hand*/ 0, 0, 0, 0, 0, /* begin head*/colorsToCode.white, 0, colorsToCode.orange, 0, colorsToCode.white, 0, colorsToCode.red, colorsToCode.red,/* end head*/0, 0, 0, 0],
+    [0, 0, /*begin hand*/colorsToCode.white, colorsToCode.white,/*end hand*/ 0, 0, 0, 0, 0, /* begin head*/colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, 0, colorsToCode.green,/* end head*/0, 0, 0, 0, 0, 0],
+    [0, 0, 0,/*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/*end arm*/ 0, 0, /* begin neck*/colorsToCode.white,/* end neck*/ 0, 0, /*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/* end arm*/ 0, 0],
+    [0, 0, 0, 0,/*begin arm*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.green,/*end arm begin body*/ colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green,/*begin arm end body*/ colorsToCode.white, colorsToCode.white, colorsToCode.white, colorsToCode.white,/* end arm*/ 0],
+    [0, 0, 0, 0, 0, 0, 0, colorsToCode.green, colorsToCode.red, colorsToCode.red, colorsToCode.yellow, colorsToCode.yellow, colorsToCode.red, colorsToCode.red, colorsToCode.green, 0, 0, colorsToCode.white, colorsToCode.white, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, colorsToCode.green, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0, colorsToCode.red, colorsToCode.red, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, 0, 0, 0, 0, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange, colorsToCode.orange]
+],
+[
+    [0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.white", 0, "colorsToCode.orange", 0, "colorsToCode.white", 0, 0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0],
+    [0, 0, 0, 0, 0, 0, "colorsToCode.green", 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", 0, 0],
+    [0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, "colorsToCode.white", 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0],
+    [0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", "colorsToCode.white", 0],
+    [0, 0, 0, 0, 0, 0, 0, "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", "colorsToCode.green", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, "colorsToCode.red", "colorsToCode.red", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ["colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", 0, 0, 0, 0, "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", "colorsToCode.orange", 0, 0, 0, 0, 0, 0, 0, 0]
+]
